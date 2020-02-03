@@ -1,50 +1,13 @@
-# data/data_scalograms/train_triple/*.npy
-# data/data_scalograms/test_triple/*.npy
-# data/data_scalograms/test/*.npy
-# data/data_scalograms/train/*.npy
+.idea/
+__pycache__/
+*/.idea/
+*/__pycache__/
 
 
-data/data_scalograms/train_triple/*0.npy
-data/data_scalograms/test_triple/*0.npy
-data/data_scalograms/test/*0.npy
-data/data_scalograms/train/*0.npy
-data/data_scalograms/train_triple/*1.npy
-data/data_scalograms/test_triple/*1.npy
-data/data_scalograms/test/*1.npy
-data/data_scalograms/train/*1.npy
-data/data_scalograms/train_triple/*2.npy
-data/data_scalograms/test_triple/*2.npy
-data/data_scalograms/test/*2.npy
-data/data_scalograms/train/*2.npy
-data/data_scalograms/train_triple/*3.npy
-data/data_scalograms/test_triple/*3.npy
-data/data_scalograms/test/*3.npy
-data/data_scalograms/train/*3.npy
-data/data_scalograms/train_triple/*4.npy
-data/data_scalograms/test_triple/*4.npy
-data/data_scalograms/test/*4.npy
-data/data_scalograms/train/*4.npy
-data/data_scalograms/train_triple/*5.npy
-data/data_scalograms/test_triple/*5.npy
-data/data_scalograms/test/*5.npy
-data/data_scalograms/train/*5.npy
-data/data_scalograms/train_triple/*6.npy
-data/data_scalograms/test_triple/*6.npy
-data/data_scalograms/test/*6.npy
-data/data_scalograms/train/*6.npy
-data/data_scalograms/train_triple/*7.npy
-data/data_scalograms/test_triple/*7.npy
-data/data_scalograms/test/*7.npy
-data/data_scalograms/train/*7.npy
-data/data_scalograms/train_triple/*8.npy
-data/data_scalograms/test_triple/*8.npy
-data/data_scalograms/test/*8.npy
-data/data_scalograms/train/*8.npy
-data/data_scalograms/train_triple/*9.npy
-data/data_scalograms/test_triple/*9.npy
-data/data_scalograms/test/*9.npy
-data/data_scalograms/train/*9.npy
-
+data/data_scalograms/train_triple/*.npy
+data/data_scalograms/test_triple/*.npy
+data/data_scalograms/test/*.npy
+data/data_scalograms/train/*.npy
 
 
 data/data_scalograms/train_triple/*.mat
