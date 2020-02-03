@@ -6,7 +6,7 @@ scipy
 matplotlib
 seaborn
 
-# Automatic feature extraction package
+# Auto-feature extraction package
 tsfresh
 
 # MATLAB
