@@ -2,7 +2,7 @@ import pandas as pd
 from tsfresh import extract_features, select_features
 from os import listdir
 from os.path import isfile, join
-from automatic_feature_extraction.config import *
+from auto_feature_extraction.config import *
 
 
 def select():
@@ -37,10 +37,10 @@ def select():
 	test['y'] = test_y
 
 	print(f"saving {train_file}")
-	train.to_csv(train_file, index=None)
+	#TODO train.to_csv(train_file, index=None)
 
 	print(f"saving {test_file}")
-	test.to_csv(test_file, index=None)
+	#TODO test.to_csv(test_file, index=None)
 
 
 if __name__ == '__main__':

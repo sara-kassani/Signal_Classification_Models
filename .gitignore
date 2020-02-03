@@ -4,6 +4,11 @@ __pycache__/
 */__pycache__/
 
 
+
+data/auto_feature_extraction_data/data_extracted/*.csv
+data/auto_feature_extraction_data/data_selected/*.csv
+
+
 data/data_scalograms/train_triple/*.npy
 data/data_scalograms/test_triple/*.npy
 data/data_scalograms/test/*.npy
@@ -15,10 +20,6 @@ data/data_scalograms/test_triple/*.mat
 
 data/data_scalograms/test/*.mat
 data/data_scalograms/train/*.mat
-
-
-automatic_feature_extraction/data_extracted/*.csv
-automatic_feature_extraction/data_selected/*.csv
 
 
 data/wavelet_scattering/train_WTS_labels.mat

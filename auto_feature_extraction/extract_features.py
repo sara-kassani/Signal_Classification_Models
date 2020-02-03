@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from tsfresh import extract_features
 from tsfresh.utilities.dataframe_functions import impute
-from automatic_feature_extraction.config import features_dir
+from auto_feature_extraction.config import features_dir
 from data_handling import load_dataset
 
 

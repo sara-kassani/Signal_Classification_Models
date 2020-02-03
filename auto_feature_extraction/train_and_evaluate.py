@@ -6,7 +6,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import accuracy_score as accuracy
-from automatic_feature_extraction.config import train_file, test_file
+from auto_feature_extraction.config import train_file, test_file
 from sklearn.neural_network import MLPClassifier
 
 
