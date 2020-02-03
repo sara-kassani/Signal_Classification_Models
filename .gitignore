@@ -4,10 +4,10 @@
 # data/data_scalograms/train/*.npy
 
 
-data/data_scalograms/train_triple/*1.npy
-data/data_scalograms/test_triple/*1.npy
-data/data_scalograms/test/*1.npy
-data/data_scalograms/train/*1.npy
+data/data_scalograms/train_triple/*0.npy
+data/data_scalograms/test_triple/*0.npy
+data/data_scalograms/test/*0.npy
+data/data_scalograms/train/*0.npy
 data/data_scalograms/train_triple/*2.npy
 data/data_scalograms/test_triple/*2.npy
 data/data_scalograms/test/*2.npy
