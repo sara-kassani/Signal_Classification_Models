@@ -40,6 +40,10 @@ data/data_scalograms/train_triple/*8.npy
 data/data_scalograms/test_triple/*8.npy
 data/data_scalograms/test/*8.npy
 data/data_scalograms/train/*8.npy
+data/data_scalograms/train_triple/*9.npy
+data/data_scalograms/test_triple/*9.npy
+data/data_scalograms/test/*9.npy
+data/data_scalograms/train/*9.npy
 
 
 
