@@ -45,6 +45,14 @@ def evaluate_model(verbose=1):
     epochs = 25
     batch_size = 32
     optimizer = Adam(lr=0.01)
+    # Reduce the learning rate once the learning stagnates, it is good in order
+    # try to scratch those last decimals of accuracy.
+    reduce_lr = ReduceLROnPlateau(monitor='val_loss',
+                                  factor=0.1,
+                                  patience=12,
+                                  verbose=1,
+                                  min_delta=1e-4,
+                                  mode='max')
 
     # Data generator parameters
     data_dir_train = data_dir + 'train'
@@ -73,7 +81,8 @@ def evaluate_model(verbose=1):
                         verbose=verbose,
                         epochs=epochs,
                         use_multiprocessing=True,
-                        workers=multiprocessing.cpu_count())
+                        workers=multiprocessing.cpu_count(),  # max number of workers
+                        callbacks=[reduce_lr])
 
     # Evaluate model
     _, accuracy = model.evaluate_generator(generator=validation_generator,

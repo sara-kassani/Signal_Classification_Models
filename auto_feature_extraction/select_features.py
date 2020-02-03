@@ -37,10 +37,10 @@ def select():
 	test['y'] = test_y
 
 	print(f"saving {train_file}")
-	#TODO train.to_csv(train_file, index=None)
+	train.to_csv(train_file, index=None)
 
 	print(f"saving {test_file}")
-	#TODO test.to_csv(test_file, index=None)
+	test.to_csv(test_file, index=None)
 
 
 if __name__ == '__main__':
