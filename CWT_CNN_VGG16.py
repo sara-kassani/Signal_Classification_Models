@@ -49,9 +49,9 @@ def evaluate_model(verbose=1):
     # try to scratch those last decimals of accuracy.
     reduce_lr = ReduceLROnPlateau(monitor='val_loss',
                                   factor=0.1,
-                                  patience=8,
+                                  patience=20,
                                   verbose=1,
-                                  min_delta=1e-4,
+                                  min_delta=1e-8,
                                   mode='max')
     # Data generator parameters
     data_dir_train = data_dir + 'train_triple'
