@@ -20,10 +20,10 @@ data/data_scalograms/train_triple/*3.npy
 data/data_scalograms/test_triple/*3.npy
 data/data_scalograms/test/*3.npy
 data/data_scalograms/train/*3.npy
-data/data_scalograms/train_triple/*5.npy
-data/data_scalograms/test_triple/*5.npy
-data/data_scalograms/test/*5.npy
-data/data_scalograms/train/*5.npy
+data/data_scalograms/train_triple/*4.npy
+data/data_scalograms/test_triple/*4.npy
+data/data_scalograms/test/*4.npy
+data/data_scalograms/train/*4.npy
 data/data_scalograms/train_triple/*6.npy
 data/data_scalograms/test_triple/*6.npy
 data/data_scalograms/test/*6.npy
