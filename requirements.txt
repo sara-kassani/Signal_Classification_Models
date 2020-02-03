@@ -4,6 +4,7 @@ scikit-learn
 keras
 scipy
 matplotlib
+seaborn
 
 # Automatic feature extraction package
 tsfresh
