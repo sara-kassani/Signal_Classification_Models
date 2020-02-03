@@ -114,6 +114,7 @@ def run_experiment(repeats=10, verbose=1, kernel=((3, 3),)):
     # test each parameter
     all_scores = list()
     for k in kernel:
+        print("#Kernel:", k)
         # repeat experiment
         scores = list()
         for r in range(repeats):
