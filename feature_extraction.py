@@ -282,11 +282,10 @@ def run_experiment(repeats=10):
 
     # Models
     classifiers = [
-        # make_pipeline(MinMaxScaler(), LogisticRegression(max_iter=300)),
-        # make_pipeline(StandardScaler(), LogisticRegression(C=30, max_iter=300)),
-        # make_pipeline(MinMaxScaler(), SVC(kernel='rbf')),
-        # make_pipeline(MinMaxScaler(), KNeighborsClassifier()),
-        RandomForestClassifier(n_estimators=100, min_samples_leaf=5, n_jobs=-1),
+        make_pipeline(MinMaxScaler(), LogisticRegression(max_iter=300)),
+        make_pipeline(StandardScaler(), LogisticRegression(C=30, max_iter=300)),
+        make_pipeline(MinMaxScaler(), SVC(kernel='rbf')),
+        make_pipeline(MinMaxScaler(), KNeighborsClassifier()),
         RandomForestClassifier(n_estimators=800, min_samples_leaf=5, n_jobs=-1),
         MLPClassifier(hidden_layer_sizes=(100, 100)),
         GradientBoostingClassifier(n_estimators=100)
@@ -300,6 +299,7 @@ def run_experiment(repeats=10):
             score = evaluate_model(clf, X_train, y_train, X_test, y_test)
             scores.append(score)
         all_scores.append(scores)
+
     # summarize results
     summarize_results(all_scores, classifiers)
 
