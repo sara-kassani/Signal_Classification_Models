@@ -49,7 +49,7 @@ def evaluate_model(verbose=1):
     # try to scratch those last decimals of accuracy.
     reduce_lr = ReduceLROnPlateau(monitor='val_loss',
                                   factor=0.1,
-                                  patience=9,
+                                  patience=12,
                                   verbose=1,
                                   min_delta=1e-4,
                                   mode='max')
