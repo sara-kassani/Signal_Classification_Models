@@ -26,3 +26,4 @@ data/wavelet_scattering/train_WTS_labels.mat
 data/wavelet_scattering/train_WTS_features.mat
 data/wavelet_scattering/test_WTS_labels.mat
 data/wavelet_scattering/test_WTS_features.mat
+/draft.py
